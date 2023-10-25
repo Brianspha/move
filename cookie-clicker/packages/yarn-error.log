@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/siphamandlamjoli/.nvm/versions/node/v16.20.2/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add chai @zetachain
+
+PATH: 
+  /Users/siphamandlamjoli/.nvm/versions/node/v16.20.2/bin:/Users/siphamandlamjoli/.pyenv/shims:/opt/homebrew/bin:/Users/siphamandlamjoli/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/Users/siphamandlamjoli/fvm/versions/3.13.0/bin/cache/dart-sdk/bin/:/usr/local/bin:/usr/local/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/siphamandlamjoli/fvm/versions/3.13.0/bin/cache/dart-sdk/bin/:/Users/siphamandlamjoli/Library/pnpm:/Users/siphamandlamjoli/.nvm/versions/node/v16.20.2/bin:/Users/siphamandlamjoli/.pyenv/shims:/opt/homebrew/bin:/Users/siphamandlamjoli/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/siphamandlamjoli/.cargo/bin:/Users/siphamandlamjoli/.local/bin:/Users/siphamandlamjoli/Library/Python/3.9/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/siphamandlamjoli/.pub-cache/bin:/Users/siphamandlamjoli/fvm/default/bin:/Users/siphamandlamjoli/.foundry/bin:/Users/siphamandlamjoli/.local/bin:/Users/siphamandlamjoli/Library/Python/3.9/bin:/usr/local/go/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/siphamandlamjoli/.pub-cache/bin:/Users/siphamandlamjoli/fvm/default/bin:/Users/siphamandlamjoli/.local/bin:/Users/siphamandlamjoli/Library/Python/3.9/bin:/Users/siphamandlamjoli/.foundry/bin:/Users/siphamandlamjoli/.foundry/bin:/Users/siphamandlamjoli/.pub-cache/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/@zetachain: [NOT_FOUND] /@zetachain not found
+      at Request.params.callback [as _callback] (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:66145:18)
+      at Request.self.callback (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at Gunzip.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at Gunzip.emit (node:events:513:28)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+      "hardhat": "^2.17.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
