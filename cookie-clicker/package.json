@@ -1,0 +1,11 @@
+{
+  "name": "cookie-clicker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "web3": "^4.1.2"
+  }
+}
