@@ -41,7 +41,7 @@
     "hardhat-gas-reporter": "^1.0.8",
     "solidity-coverage": "^0.8.0",
     "typechain": "^8.1.0",
-    "vite": "^3.0.8",
+    "vite": "^3.2.8",
     "vite-plugin-vuetify": "^1.0.0-alpha.12",
     "vue-cli-plugin-pinia": "~0.2.4",
     "vue-cli-plugin-store": "~0.0.7",
